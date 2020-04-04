@@ -48,7 +48,7 @@ public class DialogActivity extends AppCompatDialogFragment {
         commitButton = view.findViewById(R.id.commit);
         impCheckBox = view.findViewById(R.id.checkBox);
         editText.setText(this.reminderName);
-        impCheckBox.setActivated(this.imp);
+        impCheckBox.setChecked(this.imp);
         commitButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
