@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal">
+    
+    <View
+        android:id="@+id/sideLine"
+        android:layout_width="15dp"
+        android:layout_height="match_parent"
+        >
+
+    </View>
+
+    <TextView
+        android:id="@+id/iname"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="26dp"
+        android:layout_gravity="center"
+        android:text="">
+    </TextView>
+
+</LinearLayout>
